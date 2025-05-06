@@ -53,11 +53,11 @@ NLP（Natural Language Processing）是讓電腦「理解人類語言」的技�
 Transformer 是目前 NLP 最常用的架構，用於 BERT、GPT 等模型。
 
 ### ✅ 特點
-- 完全拋棄 RNN，改用「注意力機制」(Self-Attention)
+- 改用「注意力機制」(Self-Attention)
 - 可以同時處理整個句子，而非一個字一個字輸入
 
 📷 架構圖（簡化）：
-![Transformer](https://jalammar.github.io/images/t/transformer_diagram.png)
+![Transformer]([https://jalammar.github.io/images/t/transformer_diagram.png](https://www.google.com/url?sa=i&url=https%3A%2F%2Fyololab.net%2F2023%2F07%2F31%2Ftransformer%2F&psig=AOvVaw0L7mvgDtWO9maNPQnUAJQB&ust=1746601925118000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCICLpqyljo0DFQAAAAAdAAAAABAJ))
 
 ---
 
