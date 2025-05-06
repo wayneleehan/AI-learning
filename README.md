@@ -21,9 +21,9 @@ Hi, I'm Wayne，自學人工智慧與程式過程中的筆記與專案記錄。
 
 | 類別 | 說明 |
 |------|------|
-| [機器學習基礎筆記](./01_Machine_Learning/notes.md) | 包含模型分類、評估指標、訓練流程等 |
-| [神經網路理論與實作](./02_Deep_Learning/nn_notes.md) | 自製模型、激活函數、CNN/RNN應用 |
-| [NLP入門筆記](./03_NLP/bert_notes.md) | Tokenizer、Transformer 結構與應用 |
+| [機器學習基礎筆記](./01_Machine_Learning) | 包含模型分類、評估指標、訓練流程等 |
+| [神經網路理論與實作](./02_Deep_Learning) | 自製模型、激活函數、CNN/RNN應用 |
+| [NLP入門筆記](./03_NLP) | Tokenizer、Transformer 結構與應用 |
 
 ---
 
@@ -31,7 +31,7 @@ Hi, I'm Wayne，自學人工智慧與程式過程中的筆記與專案記錄。
 
 | 專案名稱 | 說明 | 技術 |
 |----------|------|------|
-| [股市預測模型](./04_Projects/stock_forecast_RNN) | 回測模型 台股趨勢 | Python |
+| [股市預測模型](./04_Projects/程式交易.ipynb) | 回測模型 台股趨勢 | Python |
 | [圖像辨識 CNN](./04_Projects/image_classifier_CNN) | 用 CNN 模型識別服飾類別（Fashion-MNIST） | TensorFlow, matplotlib |
 
 ---
