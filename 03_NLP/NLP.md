@@ -1,11 +1,4 @@
-
-# 🗣️ NLP 入門筆記：自然語言處理基礎
-
-這份筆記整理我自學 NLP（自然語言處理）的重點觀念，包含詞表示、常見模型與應用。適合用來建立語言處理的基本理解。
-
----
-
-## 🌍 什麼是 NLP？
+## 什麼是 NLP？
 
 NLP（Natural Language Processing）是讓電腦「理解人類語言」的技術。常見應用包括：
 
@@ -16,7 +9,7 @@ NLP（Natural Language Processing）是讓電腦「理解人類語言」的技�
 
 ---
 
-## 🧱 文本 → 數值：詞的表示方法
+## 文本 → 數值：詞的表示方法
 
 電腦不能直接理解文字，所以第一步是把字詞轉成向量（數字形式）
 
@@ -37,7 +30,7 @@ NLP（Natural Language Processing）是讓電腦「理解人類語言」的技�
 
 ---
 
-## 🛠️ NLP 任務常見模型
+## NLP 常見模型
 
 | 任務 | 模型 | 說明 |
 |------|------|------|
@@ -48,7 +41,7 @@ NLP（Natural Language Processing）是讓電腦「理解人類語言」的技�
 
 ---
 
-## 🧠 Transformer 架構（現代 NLP 基礎）
+## Transformer 架構
 
 Transformer 是目前 NLP 最常用的架構，用於 BERT、GPT 等模型。
 
@@ -56,12 +49,9 @@ Transformer 是目前 NLP 最常用的架構，用於 BERT、GPT 等模型。
 - 改用「注意力機制」(Self-Attention)
 - 可以同時處理整個句子，而非一個字一個字輸入
 
-📷 架構圖（簡化）：
-![Transformer]([[https://jalammar.github.io/images/t/transformer_diagram.png](https://www.google.com/url?sa=i&url=https%3A%2F%2Fyololab.net%2F2023%2F07%2F31%2Ftransformer%2F&psig=AOvVaw0L7mvgDtWO9maNPQnUAJQB&ust=1746601925118000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCICLpqyljo0DFQAAAAAdAAAAABAJ)](https://i0.wp.com/yololab.net/wp-content/uploads/2023/07/transformer.png?w=1340&ssl=1))
-
 ---
 
-## 🔤 預訓練語言模型：BERT vs GPT
+## 預訓練語言模型：BERT vs GPT
 
 | 模型 | 架構 | 任務 | 特點 |
 |------|------|------|------|
@@ -72,7 +62,7 @@ BERT 是雙向讀句子（理解），GPT 是從左到右讀（生成）。這�
 
 ---
 
-## 🧪 我的實作方向（將補充）
+## 我的實作方向
 
 - BERT 中文情感分類
 - GPT-2 文本生成
@@ -80,13 +70,10 @@ BERT 是雙向讀句子（理解），GPT 是從左到右讀（生成）。這�
 
 ---
 
-## 📚 推薦學習資源
+## 學習資源
 
 - [The Illustrated Transformer - Jalammar](https://jalammar.github.io/illustrated-transformer/)
 - [CS224n - Stanford NLP 課程](https://web.stanford.edu/class/cs224n/)
 - [Hugging Face Transformers 教學](https://huggingface.co/transformers/)
 - [BERT 中文簡介](https://zhuanlan.zhihu.com/p/43284939)
 
----
-
-📌 此筆記為人工智慧雙主修申請的一部分，將持續更新更多 NLP 模型與實作細節。
